@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPATHSALA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Why Gpathshala</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Explore Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Top Universities
+
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-success" type="submit">Talks to Experts</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="user-image">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12 "  data-aos="fade-up">
+                    <div class="banner">
+                        <p class="journey">Discover your journey</p>
+                        <h2>Discover 4500+ Courses from top Instructors Around the World</h2>
+                        <p class="small-heading">Take your learning organization to the next level. to the next level.
+                            Who'll share their knowledge to people around the world.</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-p-12 col-m-12">
+                    <div class="userform animated-form">
+                        <form id="userForm  ">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Mobile No" class="form-label">Contact</label>
+                                <input type="number" class="form-control" id="Mobile No" placeholder="Enter your number"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="address" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="address" placeholder="Enter your address"
+                                    required>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <!-- Thank You Message -->
+                        <div class="thank-you-message" id="thankYouMessage">
+                            Thank you for submitting the form!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="professional">
+                    <div class="professional1">
+                        <div class="row " >
+                            <div class="col-3 col-p-12 col-t-6">
+                                <div class="course">
+                                    <p class="Course-discover">Discover Yourself</p>
+                                    <h3 class="Degree">Earn Your <br>Degree With</h3>
+                                    <h4>GPathshala</h4>
+                                    <a href="" class="view-course">View Courses</a>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-p-12 col-t-6 center">
+                                <div class="Undergraduate">
+                                    <div class="center">
+                                        <span><img src="img/college-cap.png" alt="college-cap"
+                                                class="college-cap"></span>
+                                        <h5>Undergraduate</h5>
+                                        <p>Higher education is <br> designed for career <br> professionals seeking
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 col-p-12 col-t-6">
+                                <div class="Undergraduate">
+                                    <div class="center-1">
+                                    <span><img src="img/certificate1.png" alt="college-cap" class="college-cap"></span>
+                                    <h5>Postgraduate
+                                    </h5>
+                                    <p>Higher education is <br> designed for career <br> professionals seeking
+
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-3 col-p-12 col-t-6">
+                                <div class="Undergraduate">
+                                    <div class="center-1">
+
+                                    <span><img src="img/university1.png" alt="college-cap" class="college-cap"></span>
+                                    <h5>Research Fellow
+                                    </h5>
+                                    <p>Higher education is <br> designed for career <br> professionals seeking
+
+                                    </p>
+</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gpathsalal">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-p-12" data-aos="fade-up">
+                    <h3>Welcome to <br> Gpathshala Top <br> Online and Distance <br> Learning Platform</h3>
+                </div>
+
+                <div class="col-4 col-p-12" data-aos="fade-up">
+                    <div class="Gpa-div-2">
+                        <p>Eduma helps you to develop essential education and your career of years experiences.</p>
+                        <p>
+                            Transform your life through education to make the most of each semester to choose the best
+                            major.
+                            Prepare for grad school. Whatever it is, you can do it here. Explore our digital viewbook.
+                            Your journey starts here.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 col-p-12" data-aos="fade-up">
+                    <div class="message">
+                        <img src="img/message-sticker.png" width="380" height="321" alt="message-sticker">
+                        <div class="message-1">
+                            <p>Established</p>
+                            <h3>2024</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-p-12 col-m-12">
+                    <h2>Discover <br> Our Best Courses</h2>
+                </div>
+                <div class="col-7 col-p-12 col-m-12">
+                    <ul class="flex edu">
+                        <li data-filter="all"><a href="#">View All </a></li>
+                        <li data-filter="ugcourse"><a href="#">UG Course </a></li>
+                        <li data-filter="bootstrap"><a href="#">PG Course </a></li>
+                        <li data-filter="react"><a href="#">Diploma Course</a></li>
+                        <li data-filter="react"><a href="#">Eng. Courses</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <div class="row images-container">
+                        <div class="col-3 col-p-12 col-m-6 all flex" data-aos="fade-up">
+                            <div class="card">
+                                <img class="card-img-top" src="img/course-img-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Part-Time-Course</h5>
+                                    <p class="card-text">Diploma Engineering
+                                    </p>
+                                    <p>For Working Professionals
+
+                                    </p>
+                                    <hr>
+                                    <a href="#" class="btn btn-primary">VIEW DETAILS</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-3 col-p-12 col-m-6 all flex" data-aos="fade-up">
+                            <div class="card">
+                                <img class="card-img-top" src="img/course-img-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Part-Time-Course</h5>
+                                    <p class="card-text">B.Tech Engineering
+                                    </p>
+                                    <p>For Working Professionals
+
+                                    </p>
+                                    <hr>
+                                    <a href="#" class="btn btn-primary">VIEW DETAILS</a>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-3 col-p-12 col-m-6 all flex" data-aos="fade-up">
+                            <div class="card">
+                                <img class="card-img-top" src="img/course-img-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Part-Time-Course</h5>
+
+                                    <p class="card-text">M.Tech Engineering
+                                    </p>
+                                    <p>For Working Professionals
+
+                                    </p>
+                                    <hr>
+                                    <a href="#" class="btn btn-primary">VIEW DETAILS</a>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-3 col-p-12 col-m-6 all flex " data-aos="fade-up"> 
+                            <div class="card1">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/course-img-01.jpg" alt="Card image cap">
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Part-Time-Course</h5>
+                                        <p class="card-text" id="card-text">M.Tech Engineering
+                                        </p>
+                                        <p>For Working Professionals
+
+                                        </p>
+                                        <hr>
+                                        <a href="#" class="btn btn-primary">VIEW DETAILS</a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-3 ugcourse">
+                            <img src="img/course-img-01.jpg" width="410" height="260" alt="JavaScript">
+                        </div>
+                        <div class="col-3 javascript">
+                            <img src="img/course-img-01.jpg" width="410" height="260" alt="JavaScript">
+                        </div>
+                        <div class="col-3 bootstrap"></div>
+                        <div class="col-3 bootstrap"></div>
+                        <div class="col-3 react">
+                            <img src="img/course-img-01.jpg" width="410" height="260" alt="React JS">
+                        </div>
+                        <div class="col-3 react">
+                            <img src="img/course-img-01.jpg" width="410" height="260" alt="React JS">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Instructor ">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in">
+
+                    <img src="img/teacher.png" alt="" id="img-3">
+                    <img src="img/teacher-shape-02.png" alt="" id="img-2">
+
+                </div>
+                <div class="col-6 col-p-12 col-m-12">
+                    <h2 class="Online">Become an Instructor <br> And Teach Online
+                    </h2>
+                    <p>Helping employees gain skills and providing career development often take a back seat to business
+                        priorities but workplace.
+
+                    </p>
+                    <button class="btn btn-outline-success" type="submit">Join us now</button>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Instructor ">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-p-12 col-m-12">
+                    <h2 class="Online">Live Class From <br> Anywhere Via Zoom
+
+                    </h2>
+                    <p>Helping employees gain skills and providing career development often take a back seat to business
+                        priorities but workplace.
+
+                    </p>
+                    <button class="btn btn-outline-success" type="submit">Try Free Now</button>
+
+
+                </div>
+ 
+                <div class="col-4 col-p-12 col-m-12" data-aos="zoom-in">
+
+                    <img src="img/Zoom (1).png" alt="" id="img-3">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="learing">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-p-12 col-m-12 flex" data-aos="zoom-in">
+                    
+                    <img src="img/online.png" alt="favi" class="favi">
+                    <p class="learn">Learn With Skill Our <br> 24,20 Courses</p>
+                </div>
+
+                <div class="col-4 col-p-12 col-m-12 flex" data-aos="zoom-in">
+                    <img src="img/certificate.png" alt="favi" class="favi">
+                    <p class="learn">Earn certificates and degrees</p>
+                </div>
+                <div class="col-4 col-p-12  col-m-12 flex" data-aos="zoom-in">
+                    <img src="img/lap.png" alt="favi" class="favi">
+                    <p class="learn">Learn from anywhere any time</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="Instructor ">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12" >
+                    <h2 class="Online">Why Students Choose Us <br> for Gain Their Knowledge
+
+
+                    </h2>
+                    <p>Helping employees gain skills and providing career development often take a back seat to business
+                        priorities but workplace. </p>
+                    <div class="flex right-div">
+                        <i class="fa fa-check-circle"></i>
+                        <p>Free for physically handcraft</p>
+
+                    </div>
+                    <div class="flex right-div">
+                        <i class="fa fa-check-circle"></i>
+                        <p>Easy to enroll courses
+                        </p>
+
+                    </div>
+                    <div class="flex right-div">
+                        <i class="fa fa-check-circle"></i>
+                        <p>Course certificate for particular course
+                        </p>
+
+                    </div>
+                    <button class="btn-1 btn-outline-success" type="submit">Try Free Now</button>
+
+
+                </div>
+
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in">
+
+                    <img src="img/student.png" alt="" id="img-3">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="benefit">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in">
+                    <div class="row">
+                        <div class="left-div flex">
+                            <div class="col-6">
+                                <p>Benefits of Online Learning</p>
+                                <h3>Become an instructor
+                                    and spread your knowledge</h3>
+                                <button class="btn btn-outline-success" type="submit">View Details</button>
+
+
+                            </div>
+                            <div class="col-6" data-aos="zoom-in">
+                                <img src="img/browser-course-01-removebg-preview.png" alt="Image 1" id="Heading-1"
+                                    width="190" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in">
+                    <div class="row">
+                        <div class="right-div-1 flex">
+
+                            <div class="col-6">
+                                <p>Benefits of Online Learning</p>
+                                <h3>Become an instructor
+                                    and spread your knowledge</h3>
+                                <button class="btn btn-outline-success" type="submit">View Details</button>
+
+
+                            </div>
+                            <div class="col-6">
+                                <img src="img/browser-course-02-removebg-preview.png" alt="Image 2" id="Heading-2"
+                                    width="190" height="240">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in-up">
+                    <div class="book">
+                        <img src="img/education.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in-down">
+                    <h2 class="Online">Transform Your Life Through Education
+
+
+                    </h2>
+                    <p>Helping employees gain skills and providing career development often take a back seat to business
+                        priorities but workplace.
+
+                    </p>
+                    <button class="btn-1 btn-outline-success" type="submit">Watch how to start</button>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-p-12">
+                    <div class="wrap-2-div">
+                        <div class="row">
+                            <div class="col-6 col-p-12 col-m-12">
+                                <div class="wrap-3-heading">
+                                    <h2 class="Online">Transform Your Life Through Education
+
+
+                                    </h2>
+                                    <p>Helping employees gain skills and providing career development often take a back
+                                        seat to business
+                                        priorities but workplace.
+
+                                    </p>
+                                    <button class="btn5 btn-outline-success" type="submit">Watch how to start</button>
+                                </div>
+                            </div>
+                            <div class="col-6 col-p-12 col-m-12" data-aos="zoom-in-up">
+                                <img src="img/skill-laptop.png" alt="skill" id="skill">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <div class="img-terr flex">
+                    <img src="img/testimonial-02.png" alt="">
+                    <h6>Richard Joseph</h6>
+                    <img src="img/quotes (1).png" alt="">
+
+                </div>
+                <p>Student</p>
+
+                <h3>Helpful Instructors!</h3>
+                <p>There are so many websites out there that have not considered...</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="testimonial">
+
+
+                <div class="img-terr flex">
+                    <img src="img/img2.png" alt="">
+                    <h6>Richard Joseph</h6>
+                    <img src="img/quotes (1).png" alt="">
+
+                </div>
+                <p>Student</p>
+
+                <h3>Helpful Instructors!</h3>
+                <p>There are so many websites out there that have not considered...</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            </div>
+            <div class="testimonial">
+
+                <div class="img-terr flex">
+                    <img src="img/img2.png" alt="">
+                    <h6>Richard Joseph</h6>
+                    <img src="img/quotes (1).png" alt="">
+
+                </div>
+                <p>Student</p>
+
+                <h3>Helpful Instructors!</h3>
+                <p>There are so many websites out there that have not considered...</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+
+
+            </div>
+            <div class="testimonial">
+
+                <div class="img-terr flex">
+                    <img src="img/img2.png" alt="">
+                    <h6>Richard Joseph</h6>
+                    <img src="img/quotes (1).png" alt="">
+
+                </div>
+                <p>Student</p>
+
+                <h3>Helpful Instructors!</h3>
+                <p>There are so many websites out there that have not considered...</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            </div>
+            <div class="testimonial">
+                <div class="img-terr flex">
+                    <img src="img/img2.png" alt="">
+                    <h6>Richard Joseph</h6>
+                    <img src="img/quotes (1).png" alt="">
+
+                </div>
+                <p>Student</p>
+
+                <h3>Helpful Instructors!</h3>
+                <p>There are so many websites out there that have not considered...</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="wrap-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12 col-m-12">
+                    <h2>Our GlobalHonorable Partners
+                    </h2>
+                    <p>Global partners has been Publish the course you want, in the way you want always have of control.
+
+                    </p>
+
+
+                    <p> <span class="accordion">9,500 </span>+businesses & students around the world
+
+                    </p>
+                </div>
+                <div class="col-6 col-p-12 col-m-12">
+                    <img src="img/partner.png" alt="" width="740" height="240" id="partner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/footer-logo.png" alt="">
+                <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lessons as best plans
+                    to knowledge.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Online Platform</h3>
+                <ul>
+                    <li><a href="#">Proper Guidelines</a></li>
+                    <li><a href="#">Digital Library</a></li>
+                    <li><a href="#">Compare Us</a></li>
+                    <li><a href="#">Become Instructor</a></li>
+                    <li><a href="#">Build Career</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Browse Courses</h3>
+                <ul>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Health & Fitness</a></li>
+                    <li><a href="#">Life Styles</a></li>
+                    <li><a href="#">Photography</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Insight Community</h3>
+                <ul>
+                    <li><a href="#">Global Partners</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+                    <div class="row footer-bottom"> 
+                    <div class="col-4 col-p-12">
+                        <p>© Copyrighted & Designed by</p>
+                    </div>
+                    <div class="col-4 col-p-12">
+                        <i class="fa-solid fa-headphones" id="phone"></i>
+                        <p class="call">Have a question? Call us 24/7</p>
+                        <p class="num">(+91) 9910493399</p>
+
+                    </div>
+                    <div class="col-4 col-p-12">
+                        <p>Location
+                            C-24, Sector-2, Noida - 201301</p>
+                    </div>
+                    <div class="col-12">
+                        <button class="top"><img src="img/arrow.webp" width="50" height="50" id="top1" alt=""></span></button>
+            
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+    <script>
+        // JavaScript for filtering images
+        const links = document.querySelectorAll('.edu li');
+        const images = document.querySelectorAll('.images-container .col-3 img');
+
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const filter = link.getAttribute('data-filter');
+                let displayed = 0;
+
+                // Show/Hide images based on filter
+                images.forEach(img => {
+                    const parent = img.parentElement;
+                    if ((filter === 'all' || parent.classList.contains(filter)) && displayed < 4) {
+                        img.style.display = 'block';
+                        displayed++;
+                    } else {
+                        img.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Show first 4 images by default
+        document.querySelector('[data-filter="all"]').click();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('userForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            document.getElementById('thankYouMessage').style.display = 'block'; // Show message
+            this.reset();
+        });
+
+
+    </script>
+    <script>
+                    AOS.init();
+
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $('.testimonial-slider').slick({
+                dots: true, // Enable dots navigation
+                infinite: true, // Loop slides
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                responsive: [
+                    {
+                        breakpoint: 768, // For tablets
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480, // For mobile
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+        $(".top").click(function(){
+        $(window).scrollTop(0)
+    })
+
+    </script>
+
+</body>
+
+</html>

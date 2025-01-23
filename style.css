@@ -1,0 +1,514 @@
+*,::before,::after{ margin: 0; box-sizing: border-box;}
+a{ text-decoration: none;}
+img{ vertical-align: bottom;}
+button{ padding: 0; cursor: pointer;}
+:disabled{ cursor:not-allowed;}
+ul{ list-style: none; padding: 0;}
+video{ border: none; width: 100%; height: auto; opacity: 0;}
+label{ display: block;}
+
+
+
+html{
+    font-size: 15px;
+    --red:#ca3c3c;
+    --ff: proxima, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+body{
+    font: 16px/1.2 var(--ff);
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col-"]{ flex: 1 0 auto; padding: 0 1rem;}
+.col-1{ flex-basis: 8.33%; max-width: 8.33%;}
+.col-2{ flex-basis: 16.66%; max-width: 16.66%;}
+.col-3{ flex-basis: 25%; max-width: 25%;}
+.col-4{ flex-basis: 33.33%; max-width: 33.33%;}
+.col-5{ flex-basis: 41.66%; max-width: 41.66%;}
+.col-6{ flex-basis: 50%; max-width: 50%;}
+.col-7{ flex-basis: 58.33%; max-width: 58.33%;}
+.col-8{ flex-basis: 66.66%; max-width: 66.66%;}
+.col-9{ flex-basis: 75%; max-width: 75%;}
+.col-10{ flex-basis: 83.33%; max-width: 83.33%;}
+.col-11{ flex-basis: 91.66%; max-width: 91.66%;}
+.col-12{ flex-basis: 100%; max-width: 100%;}
+.flex{ display: flex;}
+.justify-space-bet{ justify-content: space-between; }
+.align-center{ align-items: center;}
+
+/*custom css*/
+
+.navbar{background-color: #eeeeee;}
+.btn{background-color: #2467ec; color: white;border: none;outline: none;}
+.btn:hover{background-color: #ffb013;color: black;}
+.banner{margin-top: 10rem;}
+.journey{color: #2467ec;font-weight: 700;font-size: 20px;}
+h2{font-weight: 700;font-size: 45px;}
+.small-heading{color: black; font-weight: 500;}
+.thank-you-message {
+    display: none;
+    color: green;
+    margin-top: 15px;
+}
+.userform{margin-top: 5rem;background-color: #efccd7;padding: 20px; margin-bottom: 65px}
+.animated-form {
+    background: darkgray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: slideDown 1s ease-in-out forwards;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .user-image{
+    background-image: url(img/prfession-ser.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
+.professional{
+    position: relative;
+}
+.professional1{
+    position: absolute;
+    background-color: #eeeeee;
+    width: 100%;
+    margin-top: -2rem;
+
+}
+.course{
+    background-color: #2467ec;
+    text-align: center;
+    height: 280px;
+    color: white;
+    font-weight: 500;
+}
+.Course-discover{
+    padding-top: 2rem;
+    
+}
+.Degree{
+    font-size: 30px;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.view-course{
+    background-color: #ffb013;
+    padding: 15px;
+    color: black;
+    
+}
+
+.view-course:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.college-cap{
+    width: 60px;
+    height: 60px;
+    margin-top: 3rem;
+    cursor: pointer;
+    
+    background-color: white;
+    border-radius: 50%;
+}
+h5{
+    margin-top: 1rem;font-weight: 600;
+}
+p{line-height: 1.8; }
+
+.gpathsalal{
+    margin-top: 20rem;
+
+}
+
+.GPathsala-div h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+ .message{
+    position: relative;
+ }
+.message-1{
+    background-color: #2467ec;
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px; 
+    display: inline-block;
+    line-height: 100px;
+    position: absolute;
+    margin-left: -11rem;
+    margin-top: 8rem;
+}
+.message{
+    position: relative;
+}
+.message img{max-width: 100%; height: auto;}
+.message-1 p{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.message-1 h3{
+    color: white;
+    text-align: center;
+}
+.filter{text-align: end; }
+.edu{margin-top: 3rem;}
+.edu li a{padding: 20px; color: #575757;}
+.education{background-color: gainsboro;}
+.education h2{margin-top: 3rem;}
+.images-container img{max-width: 100%; height: auto;}
+.card{margin-bottom: 3rem;}
+.card-title{background-color: #31bf82; color: white; width: 80%; padding-left: 10px; height: 30px; padding-top: 5px;border-radius: 5px ;}
+.card-text{font-weight: 700; cursor: pointer;}
+.card-text:hover{color: #2467ec;}
+
+.Instructor{background-image: url(img/teacher-shape-04.png); margin-top: 3rem; margin-bottom: 2rem; background-image: center; background-repeat: no-repeat; margin-left: 1rem;}
+.Online{margin-top: 5rem;}
+.learing{background-color: #2467ec;height: auto;margin-bottom: 2rem;}
+.favi{margin-top: 2rem;}
+.learn{margin-top: 3rem; color: white; font-size: 20px; margin-left: 1rem; font-weight: 600;}
+ .favi{margin-bottom: 2rem;}
+.btn-1{background-color: white; margin-top: 2rem; color: #2467ec; padding: 20px; border: 1px solid #2467ec; }
+.btn-1:hover{background-color: #2467ec; color: white;}
+.right-div .fa{margin-top: 5px; font-size: 20px;}
+.right-div p{margin-left: 1rem;}
+.left-div{background-color: #fdfaf5; }
+.benifit{margin-bottom: 2rem;}
+#browser-course-01{padding-right: 1rem;}
+#Heading-1{max-width: 100%; height: auto; }
+#Heading-2{max-width: 100%; height: auto;}
+.left-div p{color: #2467ec; margin-top: 1rem;}
+.right-div-1{background-color: #f9fafe;}
+.right-div-1 p {color: #2467ec; margin-top: 1rem;}
+.wrap-1{margin-top: 2rem;}
+.wrap-2{margin-top: 3rem;margin-bottom: 2rem;}
+.wrap-2-div{background-color: #2467ec; height: auto;}
+.wrap-2 .btn5{background-color: #ffb013;padding: 20px;border: none;outline: none;margin-bottom: 2rem;}
+#skill{margin-top: 3rem; max-width: 100%; height: auto;}
+.wrap-3-heading{margin-left: 2rem;}
+.wrap-3 h2{text-align: center; font-size: 35px;}
+
+
+.testimonial-slider {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-left: 10px;
+}
+.img-terr{
+    margin: auto;
+}
+.testimonial h3 {
+  color: #007bff;
+  margin-top: 1rem;
+}
+
+.testimonial p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.stars {
+  color: #ffd700;
+  margin: 10px 0;
+}
+.card-img-top:hover{transform: scale(0.9); cursor: pointer; transition: 1s;}
+h6{margin-left: 1rem; margin-top: 1.5rem; margin-right: 1rem;}
+#partner{max-width: 100%; height: auto; margin-top: 2rem;}
+.wrap-5{background-color: #f6f8fb;}
+.wrap-5 h2{margin-top: 2rem;}
+
+.accordion{color: #2467ec;font-size: 25px; font-weight: 600; display: inline-block;}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footer-section {
+    flex: 1 1 calc(20% - 20px);
+    margin: 10px;
+  }
+
+  .footer-section h3 {
+    margin-bottom: 15px;
+  }
+
+  .footer-section ul {
+    list-style: none;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #1a1f27;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact span {
+    font-size: 14px;
+    color: #aaa;
+  }
+.footer-bottom p{margin-top: 1rem;}
+#phone{color: #2467ec;font-size: 30px;margin-top: 1rem;}
+.call{color: darkcyan;}
+.num{color: white; font-size: 20px; font-weight: 600;}
+
+.top{ background: none; border: none; color: var(--red); font-size: 24px; text-align: center; }
+  .top1{text-align:right; align-items: end;}
+
+
+
+
+
+
+
+
+
+
+/* responsive s*/
+@media screen and (max-width:1220px){
+    html{ font-size: 13px;}
+    h2{ font-size: 60px;}
+    #img-2{display: none;}   
+    #img-3{width: 100%;}
+   
+ }
+ @media screen and (max-width:980px){
+     .col-t-none{ display: none; }
+     .col-t-1{ flex-basis: 8.33%; max-width: 8.33%;}
+     .col-t-2{ flex-basis: 16.66%; max-width: 16.66%;}
+     .col-t-3{ flex-basis: 25%; max-width: 25%;}
+     .col-t-4{ flex-basis: 33.33%; max-width: 33.33%;}
+     .col-t-5{ flex-basis: 41.66%; max-width: 41.66%;}
+     .col-t-6{ flex-basis: 50%; max-width: 50%;}
+     .col-t-7{ flex-basis: 58.33%; max-width: 58.33%;}
+     .col-t-8{ flex-basis: 66.66%; max-width: 66.66%;}
+     .col-t-9{ flex-basis: 75%; max-width: 75%;}
+     .col-t-10{ flex-basis: 83.33%; max-width: 83.33%;}
+     .col-t-11{ flex-basis: 91.66%; max-width: 91.66%;}
+     .col-t-12{ flex-basis: 100%; max-width: 100%;}
+     h2{font-weight: 700;font-size: 30px;}
+     #img-2{display: none;}   
+     #img-3{width: 100%;}
+    
+
+ }
+ @media screen and (max-width:768px){
+     html{ font-size: 12px;}
+     .col-m-6{ flex-basis: 50%; max-width: 50%;}
+     .col-m-12{ flex-basis: 100%; max-width: 100%;}
+     h2{font-weight: 700;font-size: 30px;}
+     .professional1{
+        position: absolute;
+        background-color: #eeeeee;
+        width: 100%;
+        margin-top: 10px;
+    
+    }
+    .gpathsalal{
+        margin-top: 45rem;
+    
+    }
+    .message-1{
+        background-color: #2467ec;
+        border-radius: 50%; 
+        width: 150px;
+        height: 150px; 
+        display: inline-block;
+        line-height: 100px;
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 10rem;
+    }
+
+    .card{margin-top: 1rem; width: 100%; }
+    .card-title{background-color: #31bf82; color: white; width: 100%; text-align: center; height: 30px; padding-top: 5px;border-radius: 5px ;}
+.card1{width: 100%;} 
+#img-2{display: none;}   
+#img-3{width: 100%;}
+.footer-section {
+    flex: 1 1 100%;
+}
+#img-3{margin-top: 1rem;}
+
+ }
+ @media screen and (max-width:480px){
+     .col-p-1{ flex-basis: 8.33%; max-width: 8.33%;}
+     .col-p-2{ flex-basis: 16.66%; max-width: 16.66%;}
+     .col-p-3{ flex-basis: 25%; max-width: 25%;}
+     .col-p-4{ flex-basis: 33.33%; max-width: 33.33%;}
+     .col-p-5{ flex-basis: 41.66%; max-width: 41.66%;}
+     .col-p-6{ flex-basis: 50%; max-width: 50%;}
+     .col-p-7{ flex-basis: 58.33%; max-width: 58.33%;}
+     .col-p-8{ flex-basis: 66.66%; max-width: 66.66%;}
+     .col-p-9{ flex-basis: 75%; max-width: 75%;}
+     .col-p-10{ flex-basis: 83.33%; max-width: 83.33%;}
+     .col-p-11{ flex-basis: 91.66%; max-width: 91.66%;}
+     .col-p-12{ flex-basis: 100%; max-width: 100%;}
+     .professional1{
+        position: absolute;
+        background-color: #eeeeee;
+        width: 100%;
+        margin-top: 10px;
+    
+    }
+    .gpathsalal{
+        margin-top: 85rem;
+    
+    }
+    .message-1{
+        background-color: #2467ec;
+        border-radius: 50%; 
+        width: 150px;
+        height: 150px; 
+        display: inline-block;
+        line-height: 100px;
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 10rem;
+    }
+    .card{margin-top: 1rem; width: 100%; }
+    .card-title{background-color: #31bf82; color: white; width: 100%; text-align: center; height: 30px; padding-top: 5px;border-radius: 5px ;}
+.card1{width: 100%;} 
+#img-2{display: none;}   
+#img-3{width: 100%;}
+
+.center{padding-left: 8rem;}
+.center-1{padding-left: 15rem;}
+
+   }
+
+   @media screen and (max-width:360px){
+    .col-p-1{ flex-basis: 8.33%; max-width: 8.33%;}
+    .col-p-2{ flex-basis: 16.66%; max-width: 16.66%;}
+    .col-p-3{ flex-basis: 25%; max-width: 25%;}
+    .col-p-4{ flex-basis: 33.33%; max-width: 33.33%;}
+    .col-p-5{ flex-basis: 41.66%; max-width: 41.66%;}
+    .col-p-6{ flex-basis: 50%; max-width: 50%;}
+    .col-p-7{ flex-basis: 58.33%; max-width: 58.33%;}
+    .col-p-8{ flex-basis: 66.66%; max-width: 66.66%;}
+    .col-p-9{ flex-basis: 75%; max-width: 75%;}
+    .col-p-10{ flex-basis: 83.33%; max-width: 83.33%;}
+    .col-p-11{ flex-basis: 91.66%; max-width: 91.66%;}
+    .col-p-12{ flex-basis: 100%; max-width: 100%;}
+    h2{font-weight: 700;font-size: 25px;}
+    .professional1{
+        position: absolute;
+        background-color: #eeeeee;
+        width: 100%;
+        margin-top: 10px;
+    
+    }
+    
+    center{text-align: center;align-items: center;justify-content: center; margin: auto;}
+    .gpathsalal{
+        margin-top: 85rem;
+    
+    }
+    .message-1{
+        background-color: #2467ec;
+        border-radius: 50%; 
+        width: 150px;
+        height: 150px; 
+        display: inline-block;
+        line-height: 100px;
+        position: absolute;
+        margin-left: -15rem;
+        margin-top: 10rem;
+    }
+    .edu li a{padding: 10px; color: #575757; font-size: 15px;}
+   .card{margin-top: 1rem; }
+   .card-title{background-color: #31bf82; color: white; width: 100%; text-align: center; height: 30px; padding-top: 5px;border-radius: 5px ;}
+ #img-2{display: none;}   
+ #img-3{width: 100%;}
+ .center{padding-left: 5rem;}
+ .center-1{padding-left: 10rem;}
+
+}
